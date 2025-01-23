@@ -68,12 +68,6 @@ st.header("Saisir les caractéristiques pour la prédiction")
 # Chargement des données
 df = pd.read_csv('Iris.csv',delimiter=';')
 
-# Histogramme des longueurs des sépales
-st.subheader('Histogramme de la longueur des sépales')
-plt.figure(figsize=(10,5))
-sns.histplot(df['SepalLength'], bins=20, kde=True)
-st.pyplot(plt)
-
 # About
 
 if st.button("About App"):
