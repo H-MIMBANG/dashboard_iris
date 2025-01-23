@@ -3,7 +3,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-#import seaborn as sns
+import seaborn as sns
 
 # Page configuration
 st.set_page_config(
@@ -115,10 +115,10 @@ st.write(chart2)
 # About
 
 if st.button("About App"):
-	st.subheader("App d'exploration des données des Iris")
-	st.text("Contruite avec Streamlit")
+	st.subheader("App d'exploration des données d'Iris")
+	st.text("Construite avec Streamlit")
 	st.text("Thanks to the Streamlit Team Amazing Work")
 
 if st.checkbox("By"):
-	st.text("Stéphane C. K. Tékouabou")
-	st.text("ctekouaboukoumetio@gmail.com")
+	st.text("Heddy MIMBANG")
+	st.text("heddy.mimbang@icloud.com")
