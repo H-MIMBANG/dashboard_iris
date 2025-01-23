@@ -14,7 +14,6 @@ st.set_page_config(
 alt.themes.enable("dark")
 
 # -------------------------
-# Sidebar
 
 # Initialize page_selection in session state if not already set
 if 'page_selection' not in st.session_state:
@@ -101,7 +100,7 @@ chart = alt.Chart(df).mark_point().encode(
 st.write(chart)
 
 #Interactive design representation 
-chart2 = alt.Chart(df).mark_circle(size=60).encode(
+chart2 = alt.Chart(df).mark_circle(size=120).encode(
     x='sepal_length',
     y='sepal_width',
     color='species',
