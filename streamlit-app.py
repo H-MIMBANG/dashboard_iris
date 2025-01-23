@@ -3,7 +3,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-#import seaborn as sns
+import seaborn as sns
 
 # Page configuration
 st.set_page_config(
@@ -73,7 +73,7 @@ st.header('Pré-analyse visuelles données données des Iris TP1')  # On défini
 
 
 # Afficher les premières lignes des données chargées data
-#st.write(df.head())
+st.write(df.head())
 	
 st.subheader('Description des données')  # Sets a subheader for a subsection
 
