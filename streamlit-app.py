@@ -3,6 +3,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+from sklearn.datasets import load_iris
 
 # Page configuration
 st.set_page_config(
