@@ -35,10 +35,10 @@ with st.sidebar:
     
     if st.button("Dataset", use_container_width=True, on_click=set_page_selection, args=('dataset',)):
         st.session_state.page_selection = 'dataset'
-	iris = load_data()
-	st.write(iris.describe())
-	st.success('Jeu de données chargé avec succès')
-	st.write(iris)
+		iris = load_data()
+		st.write(iris.describe())
+		st.success('Jeu de données chargé avec succès')
+		st.write(iris)
 
     if st.button("EDA", use_container_width=True, on_click=set_page_selection, args=('eda',)):
         st.session_state.page_selection = "eda"
