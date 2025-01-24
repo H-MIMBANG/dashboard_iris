@@ -32,7 +32,6 @@ with st.sidebar:
 
     if st.button("About", use_container_width=True, on_click=set_page_selection, args=('about',)):
         st.session_state.page_selection = 'about'
-	st.subheader("App d'exploration des données d'Iris")
 	st.text("Construite avec Streamlit")
 	st.text("Thanks to the Streamlit Team Amazing Work")
     
