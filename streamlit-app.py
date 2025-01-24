@@ -32,7 +32,7 @@ with st.sidebar:
     st.subheader("Pages")
 
     if st.button("About", use_container_width=True, on_click=set_page_selection, args=('about',)):
-        	st.session_state.page_selection = 'about'
+        st.session_state.page_selection = 'about'
     
     if st.button("Dataset", use_container_width=True, on_click=set_page_selection, args=('dataset',)):
         st.session_state.page_selection='dataset'
